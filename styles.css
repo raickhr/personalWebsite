@@ -322,7 +322,7 @@ ul.skills-list li {
   position: sticky;
   flex-direction: row;
   flex-wrap: wrap;
-  top: 120px;
+  top: 90px;
   z-index: 10;
 }
 
@@ -446,6 +446,7 @@ ul.skills-list li {
   }
 
   h2[id] {
-    scroll-margin-top: 60px;
+    scroll-margin-top: 400px;
   }
+  
 }
