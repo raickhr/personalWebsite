@@ -111,10 +111,6 @@ h1, h2 {
   color: #003366;
 }
 
-h2[id] {
-  scroll-margin-top: 200px; /* adjust to height of sticky nav */
-}
-
 /* Footer */
 footer {
   text-align: center;
@@ -356,6 +352,10 @@ ul.skills-list li {
   background-color: #003f7d;
 }
 
+.scroll-anchor {
+    scroll-margin-top: 240px;
+}
+
 @media (max-width: 768px) {
   section {
     width: 100%;
@@ -445,8 +445,8 @@ ul.skills-list li {
     margin-bottom: 0.5rem;
   }
 
-  h2[id] {
-    scroll-margin-top: 400px;
+  .scroll-anchor {
+    scroll-margin-top: 550px;
   }
   
 }
