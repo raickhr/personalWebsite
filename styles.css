@@ -313,14 +313,14 @@ ul.skills-list li {
 
 .floating-nav {
   margin-bottom: 2rem;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   background: #ffffff;
   border-radius: 5px;
   overflow-x: auto;
   position: sticky;
   flex-direction: row;
   flex-wrap: wrap;
-  top: 90px;
+  top: 4rem;
   z-index: 10;
 }
 
@@ -414,7 +414,7 @@ ul.skills-list li {
   }
 
   .floating-nav {
-    top: 180px;
+    top: 4rem;;
   }
 
   .floating-nav ul {
@@ -448,7 +448,7 @@ ul.skills-list li {
   }
 
   .scroll-anchor {
-    scroll-margin-top: 450px;
+    scroll-margin-top: 18rem;
   }
 
   @media (max-width: 768px) {
