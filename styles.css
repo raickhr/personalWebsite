@@ -25,15 +25,15 @@ nav {
 }
 
 nav ul {
-  flex-wrap: wrap;
-  flex-direction: row;
+  display: flex;
   justify-content: center;
-  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
 nav ul li {
-  width: 45%;
-  text-align: center;
-  margin: 0.3rem 0;
+  margin: 0 1rem;
 }
 
 nav ul li a {
@@ -325,13 +325,16 @@ ul.skills-list li {
 
 .floating-nav ul {
   display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 0.5rem;
 }
 
 .floating-nav li {
-  flex: 1 1 45%;
+  margin: 0;
 }
 
 .floating-nav a {
