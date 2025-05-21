@@ -406,7 +406,7 @@ ul.skills-list li {
   }
 
   nav ul li {
-    width: 45%;
+    width: 30%;
     text-align: center;
     margin: 0.3rem 0;
   }
@@ -419,7 +419,7 @@ ul.skills-list li {
   }
 
   .floating-nav li {
-    flex: 1 1 45%;
+    flex: 1 1 30%;
   }
 
   .floating-nav a {
