@@ -25,15 +25,15 @@ nav {
 }
 
 nav ul {
-  flex-wrap: wrap;
-  flex-direction: row;
+  display: flex;
   justify-content: center;
-  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
 nav ul li {
-  width: 45%;
-  text-align: center;
-  margin: 0.3rem 0;
+  margin: 0 1rem;
 }
 
 nav ul li a {
@@ -61,15 +61,13 @@ section {
 }
 
 .sub-section {
-  width: 100%;
-  max-width: 360px;
+  flex: 1 1 300px;
+  max-width: 350px;
   min-width: 280px;
   padding: 1rem;
   border-radius: 8px;
   background-color: #fff;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: left; /* default to left */
 }
 
 
@@ -318,20 +316,23 @@ ul.skills-list li {
   border-radius: 12px;
   overflow-x: auto;
   position: sticky;
-  top: 120px;
+  top: 80px;
   z-index: 10;
 }
 
 
 .floating-nav ul {
   display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 0.5rem;
 }
 
 .floating-nav li {
-  flex: 1 1 45%;
+  margin: 0;
 }
 
 .floating-nav a {
