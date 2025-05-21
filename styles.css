@@ -56,16 +56,22 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  align-items: flex-start;
+  gap: 2rem;
 }
 
 .sub-section {
-  flex: 1 1 300px;
-  max-width: 400px;
+  width: 100%;
+  max-width: 360px;
+  min-width: 280px;
   padding: 1rem;
   border-radius: 8px;
+  background-color: #fff;
   text-align: left;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .profile-pic img {
   width: 160px;
@@ -115,21 +121,6 @@ footer {
   font-size: 0.9em;
 }
 
-/* Responsive layout */
-@media (max-width: 768px) {
-  .about-flex {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .profile-pic img {
-    margin-bottom: 1rem;
-  }
-
-  .about-text {
-    text-align: center;
-  }
-}
 
 .about-layout {
   display: flex;
@@ -362,19 +353,20 @@ ul.skills-list li {
 }
 
 @media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
+  section {
+    width: 100%;
+    padding: 1rem;
   }
 
-  nav ul li {
-    margin: 0.5rem 0;
+  .section-flex {
+    flex-direction: column;
+    align-items: stretch; /* full width */
   }
 
-  .section-flex,
-  .about-layout {
-    flex-direction: column;
-    align-items: center;
+  .sub-section {
+    max-width: 100%;
+    width: 100%;
+    text-align: left; /* enforce left alignment on mobile */
   }
 
   .left-column,
@@ -383,9 +375,31 @@ ul.skills-list li {
     max-width: 100%;
   }
 
-  .sub-section {
-    max-width: 100%;
-    padding: 1rem 0.5rem;
+  .about-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-layout {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-pic img {
+    margin-bottom: 1rem;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
   }
 
   .floating-nav ul {
@@ -396,11 +410,6 @@ ul.skills-list li {
   .floating-nav a {
     text-align: center;
     font-size: 1rem;
-  }
-
-  section {
-    width: 100%;
-    padding: 1rem;
   }
 
   .timeline {
