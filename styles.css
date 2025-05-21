@@ -317,7 +317,7 @@ ul.skills-list li {
   margin-bottom: 2rem;
   padding: 0.5rem 1rem;
   background: #ffffff;
-  border-radius: 12px;
+  border-radius: 5px;
   overflow-x: auto;
   position: sticky;
   flex-direction: row;
@@ -411,8 +411,13 @@ ul.skills-list li {
     margin: 0.3rem 0;
   }
 
+  .floating-nav {
+    top: 180px;
+  }
+
   .floating-nav ul {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 0.5rem;
