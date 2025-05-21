@@ -318,7 +318,7 @@ ul.skills-list li {
   border-radius: 12px;
   overflow-x: auto;
   position: sticky;
-  top: 80px;
+  top: 120px;
   z-index: 10;
 }
 
