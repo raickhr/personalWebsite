@@ -362,13 +362,58 @@ ul.skills-list li {
 }
 
 @media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+
+  .section-flex,
   .about-layout {
     flex-direction: column;
     align-items: center;
   }
 
+  .left-column,
   .right-column {
-    text-align: left;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .sub-section {
+    max-width: 100%;
+    padding: 1rem 0.5rem;
+  }
+
+  .floating-nav ul {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .floating-nav a {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  section {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .timeline {
+    padding-left: 20px;
+  }
+
+  .timeline-entry {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .timeline-icon {
+    margin-bottom: 0.5rem;
   }
 
   h2[id] {
