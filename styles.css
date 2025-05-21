@@ -448,11 +448,10 @@ ul.skills-list li {
   }
 
   .scroll-anchor {
-    scroll-margin-top: 18rem;
+    scroll-margin-top: 20rem;
   }
 
-  @media (max-width: 768px) {
-    .pdf-viewer iframe {
+  .pdf-viewer iframe {
       height: 75vh;
     }
   }
