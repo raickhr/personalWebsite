@@ -9,7 +9,7 @@ body {
 
 .container {
   width: 85%;
-  max-width: 3000px;
+  max-width: 2000px;
   margin: auto;
   padding: 1rem;
 }
@@ -496,16 +496,15 @@ ul.skills-list li {
   animation: fadeEffect 1s ease-in-out;
 }
 
-video-highlight {
-  padding: 2rem;
+.video-highlight {
+  padding: 4rem 1rem;
   background-color: #fff;
   box-sizing: border-box;
-  max-width: 1200px;
-  margin: 2rem;
-  gap: 2rem;
+  max-width: 2000px;
+  margin: 1rem auto;
+  gap: 0.05rem;
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start; 
+  flex-direction: column;
   align-content: center; 
 }
 
@@ -513,14 +512,14 @@ video-highlight {
   text-align: center;
   font-size: 1.8rem;
   color: #003366;
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
 
 .video-container {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start; 
-  margin: 2rem;
+  margin: 0.5rem 0rem;
   padding: 0.5rem 0.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
