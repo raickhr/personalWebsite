@@ -303,24 +303,6 @@ ul.skills-list li {
   margin-bottom: 0.5rem;
 }
 
-
-/* .floating-nav {
-  width: 100%;
-  max-width: 2000px;
-  margin-bottom: 0rem;
-  margin: 0rem auto;
-  padding: 0rem 0rem;
-  background: #ffffff;
-  border-radius: 5px;
-  overflow-x: auto;
-  position: fixed;
-  flex-direction: row;
-  flex-wrap: wrap;
-  top: 4rem;
-  z-index: 10;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-} */
-
 .floating-nav {
   position: fixed;
   top: 4rem;
@@ -432,19 +414,23 @@ ul.skills-list li {
 
   .floating-nav ul {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center; /* <-- fix: center items */
     gap: 0.5rem;
+    padding: 0.75rem;
   }
 
   .floating-nav li {
-    flex: 1 1 28%;
+    flex: 1 1 auto; /* allow natural growth */
+    display: flex;
+    justify-content: center;
   }
 
   .floating-nav a {
     text-align: center;
     font-size: 1rem;
+    width: 100%;
+    max-width: 120px; /* optional: limit width */
   }
 
   .timeline {
