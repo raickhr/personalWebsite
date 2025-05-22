@@ -696,6 +696,7 @@ ul.skills-list li {
 
   .video-container {
     flex-direction: column;
+    gap: 0.5rem;
   }
 
   .video-thumbnail {
