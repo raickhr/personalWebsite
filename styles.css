@@ -336,10 +336,10 @@ ul.skills-list li {
 
 .floating-nav a {
   display: inline-block;
-  padding: 0.5rem 0.75rem;
+  padding: 0.25rem 0.3rem;
   background-color: #005599;
   color: #fff;
-  border-radius: 12px;
+  border-radius: 6px;
   font-size: 0.95rem;
   text-decoration: none;
   transition: background-color 0.2s ease;
@@ -357,7 +357,7 @@ ul.skills-list li {
   section {
     width: 100%;
     padding: 1rem;
-    margin: 8rem auto;
+    margin: 12rem auto;
   }
 
   .section-flex {
