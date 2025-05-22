@@ -505,7 +505,15 @@ video-highlight {
   gap: 2rem;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;  
+  align-items: flex-start; 
+  align-content: center; 
+}
+
+.video-highlight-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #003366;
+  margin-bottom: 2rem;
 }
 
 .video-container {
@@ -515,6 +523,7 @@ video-highlight {
   margin: 2rem;
   gap: 2rem;
   padding: 0.5rem 0.5rem;
+  border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
