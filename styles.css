@@ -539,6 +539,10 @@ ul.skills-list li {
   section.pdf-viewer {
     margin-top: 4rem;
   }
+
+  .pub-thumb {
+    width: 100%;
+  }
 }
   
 
