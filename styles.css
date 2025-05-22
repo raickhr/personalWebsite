@@ -244,6 +244,7 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
+  align-content: center;
   box-sizing: border-box;
 }
 
