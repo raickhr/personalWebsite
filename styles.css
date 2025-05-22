@@ -49,7 +49,7 @@ section {
   width: 100%;
   max-width: 2000px;
   margin: 1rem auto;
-  padding: 2rem 1rem;
+  padding: 8rem 2rem;
   background: #fff;
   box-sizing: border-box;
 }
@@ -374,6 +374,7 @@ ul.skills-list li {
   section {
     width: 100%;
     padding: 1rem;
+    margin: 8rem auto;
   }
 
   .section-flex {
