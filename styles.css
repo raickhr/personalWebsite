@@ -46,7 +46,7 @@ nav ul li a {
 
 /* Section styling */
 section {
-  width: 95%;
+  width: 100%;
   max-width: 2000px;
   margin: 1rem auto;
   padding: 2rem 1rem;
@@ -252,13 +252,6 @@ footer {
   border: none;
 }
 
-/* .section {
-  width: calc(80% - 400px);
-  padding: 2rem clamp(1rem, 5vw, 3rem);
-  box-sizing: border-box;
-  margin-left: calc(200px + 24px);
-} */
-
 .timeline {
   position: relative;
   margin-top: 2rem;
@@ -426,7 +419,7 @@ ul.skills-list li {
   }
 
   .floating-nav li {
-    flex: 1 1 40%;
+    flex: 1 1 28%;
   }
 
   .floating-nav a {
