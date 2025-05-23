@@ -386,7 +386,7 @@ ul.skills-list li {
   top: 4rem;
   left: 50%;
   transform: translateX(-50%);
-  width: 100%;
+  width: 85%;
   max-width: 2000px; /* or any centered width you prefer */
   background: #ffffff;
   padding: 0rem 0rem;
