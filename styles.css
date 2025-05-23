@@ -278,7 +278,7 @@ section.pdf-viewer {
   align-items: flex-start;
   gap: 1rem;
   margin-bottom: 1.5rem;
-  padding-left: 1rem;
+  padding: 1rem;
   border: 1px solid #ccc;
   border-left: 4px solid #005599;
   border-radius: 8px;
